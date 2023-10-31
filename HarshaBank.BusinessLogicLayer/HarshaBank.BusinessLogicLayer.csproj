@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\HarshaBank.Configuration\HarshaBank.Configuration.csproj" />
+    <ProjectReference Include="..\HarshaBank.DataAccessLayer\HarshaBank.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\HarshaBank.Exceptions\HarshaBank.Exceptions.csproj" />
+    <ProjectReference Include="..\HarshaBank.Entities\HarshaBank.Entities.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

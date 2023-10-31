@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			
+			"type": "dotnet",
+			"task": "watch HashaBank.Presentation",
+			"file": "C:\\MyWork\\CSharp\\MyWorking\\section29-BankProject\\Project\\HashaBank.Presentation\\HashaBank.Presentation.csproj",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
